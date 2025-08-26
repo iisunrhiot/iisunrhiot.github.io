@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "724540043443",
+    "project_id": "midi-axes",
+    "storage_bucket": "midi-axes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724540043443:android:8781ec0eb5d7612f6fc0c6",
+        "android_client_info": {
+          "package_name": "jp.iisun.midiaxes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqBFBxGLi0csCd75ODbgSVByYBphQ84tM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

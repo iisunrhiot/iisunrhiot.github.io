@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+
+    <uses-feature
+        android:name="android.hardware.midi"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="midi Axes"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31" >
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2626275870600033~6457940364"/> <!-- ここにAdMobのアプリIDを追加 -->
+
+        <activity
+            android:name="jp.iisun.midiaxes.MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <!-- <action android:name="android.intent.action.VIEW" /> -->
+                <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+                <!-- <data android:scheme="https" /> -->
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="jp.iisun.midiaxes.SettingsActivity"
+            android:screenOrientation="fullSensor"
+            tools:ignore="DiscouragedApi">
+
+            <!-- android:name=".SettingsFragment"> -->
+        </activity>
+    </application>
+
+</manifest>

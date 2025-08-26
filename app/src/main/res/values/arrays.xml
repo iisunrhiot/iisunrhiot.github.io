@@ -1,0 +1,478 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+    <string-array name="spinner_items">
+    </string-array>
+    <string-array name="spinner_items1">
+        <item>--nothing--</item>
+        <item>Pitch Bend</item>
+        <item>Note 25keys +3oct.</item>
+        <item>Note 25keys +2oct.</item>
+        <item>Note 25keys +1oct.</item>
+        <item>Note 25keys Center</item>
+        <item>Note 25keys -1oct.</item>
+        <item>Note 25keys -2oct.</item>
+        <item>Note 25keys -3oct.</item>
+        <item>Note White keys of 49 +2oct.</item>
+        <item>Note White keys of 49 +1oct.</item>
+        <item>Note White keys of 49 Center</item>
+        <item>Note White keys of 49 -1oct.</item>
+        <item>Note White keys of 49 -2oct.</item>
+        <item>Note C Major Pentatonic of 49 +2oct.</item>
+        <item>Note C Major Pentatonic of 49 +1oct.</item>
+        <item>Note C Major Pentatonic of 49 Center</item>
+        <item>Note C Major Pentatonic of 49 -1oct.</item>
+        <item>Note C Major Pentatonic of 49 -2oct.</item>
+        <item>Note 88keys</item>
+        <item>Note White keys of 88</item>
+        <item>Note C Major Pentatonic of 88</item>
+        <item>Note ALL</item>
+        <item>CC#000 Bank Select</item>
+        <item>CC#001 Modulation Wheel or Lever</item>
+        <item>CC#002 Breath Controller</item>
+        <item>CC#003 Undefined</item>
+        <item>CC#004 Foot Controller</item>
+        <item>CC#005 Portamento Time</item>
+        <item>CC#006 Data Entry MSB</item>
+        <item>CC#007 Channel Volume</item>
+        <item>CC#008 Balance</item>
+        <item>CC#009 Undefined</item>
+        <item>CC#010 Pan</item>
+        <item>CC#011 Expression Controller</item>
+        <item>CC#012 Effect Control 1</item>
+        <item>CC#013 Effect Control 2</item>
+        <item>CC#014 Undefined</item>
+        <item>CC#015 Undefined</item>
+        <item>CC#016 General Purpose Controller 1</item>
+        <item>CC#017 General Purpose Controller 2</item>
+        <item>CC#018 General Purpose Controller 3</item>
+        <item>CC#019 General Purpose Controller 4</item>
+        <item>CC#020 Undefined</item>
+        <item>CC#021 Undefined</item>
+        <item>CC#022 Undefined</item>
+        <item>CC#023 Undefined</item>
+        <item>CC#024 Undefined</item>
+        <item>CC#025 Undefined</item>
+        <item>CC#026 Undefined</item>
+        <item>CC#027 Undefined</item>
+        <item>CC#028 Undefined</item>
+        <item>CC#029 Undefined</item>
+        <item>CC#030 Undefined</item>
+        <item>CC#031 Undefined</item>
+        <item>CC#032 LSB Bank Select</item>
+        <item>CC#033 LSB Modulation Wheel or Lever</item>
+        <item>CC#034 LSB Breath Controller</item>
+        <item>CC#035 LSB Undefined</item>
+        <item>CC#036 LSB Foot Controller</item>
+        <item>CC#037 LSB Portamento Time</item>
+        <item>CC#038 LSB Data Entry</item>
+        <item>CC#039 LSB Channel Volume</item>
+        <item>CC#040 LSB Balance</item>
+        <item>CC#041 LSB Undefined</item>
+        <item>CC#042 LSB Pan</item>
+        <item>CC#043 LSB Expression Controller</item>
+        <item>CC#044 LSB Effect control 1</item>
+        <item>CC#045 LSB Effect control 2</item>
+        <item>CC#046 LSB Undefined</item>
+        <item>CC#047 LSB Undefined</item>
+        <item>CC#048 LSB General Purpose Controller 1</item>
+        <item>CC#049 LSB General Purpose Controller 2</item>
+        <item>CC#050 LSB General Purpose Controller 3</item>
+        <item>CC#051 LSB General Purpose Controller 4</item>
+        <item>CC#052 LSB Undefined</item>
+        <item>CC#053 LSB Undefined</item>
+        <item>CC#054 LSB Undefined</item>
+        <item>CC#055 LSB Undefined</item>
+        <item>CC#056 LSB Undefined</item>
+        <item>CC#057 LSB Undefined</item>
+        <item>CC#058 LSB Undefined</item>
+        <item>CC#059 LSB Undefined</item>
+        <item>CC#060 LSB Undefined</item>
+        <item>CC#061 LSB Undefined</item>
+        <item>CC#062 LSB Undefined</item>
+        <item>CC#063 LSB Undefined</item>
+        <item>CC#064 Damper Pedal on/off</item>
+        <item>CC#065 Portamento On/Off</item>
+        <item>CC#066 Sostenuto On/Off</item>
+        <item>CC#067 Soft Pedal On/Off</item>
+        <item>CC#068 Legato Footswitch</item>
+        <item>CC#069 Hold 2</item>
+        <item>CC#070 Sound Controller 1</item>
+        <item>CC#071 Sound Controller 2</item>
+        <item>CC#072 Sound Controller 3</item>
+        <item>CC#073 Sound Controller 4</item>
+        <item>CC#074 Sound Controller 5</item>
+        <item>CC#075 Sound Controller 6</item>
+        <item>CC#076 Sound Controller 7</item>
+        <item>CC#077 Sound Controller 8</item>
+        <item>CC#078 Sound Controller 9</item>
+        <item>CC#079 Sound Controller 10</item>
+        <item>CC#080 General Purpose Controller 5</item>
+        <item>CC#081 General Purpose Controller 6</item>
+        <item>CC#082 General Purpose Controller 7</item>
+        <item>CC#083 General Purpose Controller 8</item>
+        <item>CC#084 Portamento Control</item>
+        <item>CC#085 Undefined</item>
+        <item>CC#086 Undefined</item>
+        <item>CC#087 Undefined</item>
+        <item>CC#088 High Resolution Velocity Prefix</item>
+        <item>CC#089 Undefined</item>
+        <item>CC#090 Undefined</item>
+        <item>CC#091 Effects 1 Depth</item>
+        <item>CC#092 Effects 2 Depth</item>
+        <item>CC#093 Effects 3 Depth</item>
+        <item>CC#094 Effects 4 Depth</item>
+        <item>CC#095 Effects 5 Depth</item>
+        <item>CC#096 Data Entry +1</item>
+        <item>CC#097 Data Entry -1</item>
+        <item>CC#098 NRPN - LSB</item>
+        <item>CC#099 NRPN - MSB</item>
+        <item>CC#100 RPN - LSB</item>
+        <item>CC#101 RPN - MSB</item>
+        <item>CC#102 Undefined</item>
+        <item>CC#103 Undefined</item>
+        <item>CC#104 Undefined</item>
+        <item>CC#105 Undefined</item>
+        <item>CC#106 Undefined</item>
+        <item>CC#107 Undefined</item>
+        <item>CC#108 Undefined</item>
+        <item>CC#109 Undefined</item>
+        <item>CC#110 Undefined</item>
+        <item>CC#111 Undefined</item>
+        <item>CC#112 Undefined</item>
+        <item>CC#113 Undefined</item>
+        <item>CC#114 Undefined</item>
+        <item>CC#115 Undefined</item>
+        <item>CC#116 Undefined</item>
+        <item>CC#117 Undefined</item>
+        <item>CC#118 Undefined</item>
+        <item>CC#119 Undefined</item>
+        <!--        <item>CC#120 All Sound Off</item>-->
+        <!--        <item>CC#121 Reset All Controllers</item>-->
+        <!--        <item>CC#122 Local Control On/Off</item>-->
+        <!--        <item>CC#123 All Notes Off</item>-->
+        <!--        <item>CC#124 Omni Mode Off</item>-->
+        <!--        <item>CC#125 Omni Mode On</item>-->
+        <!--        <item>CC#126 Mono Mode On</item>-->
+        <!--        <item>CC#127 Poly Mode On</item>-->
+    </string-array>
+    <string-array name="spinner_items3" >
+        <item>CH#01</item>
+        <item>CH#02</item>
+        <item>CH#03</item>
+        <item>CH#04</item>
+        <item>CH#05</item>
+        <item>CH#06</item>
+        <item>CH#07</item>
+        <item>CH#08</item>
+        <item>CH#09</item>
+        <item>CH#10</item>
+        <item>CH#11</item>
+        <item>CH#12</item>
+        <item>CH#13</item>
+        <item>CH#14</item>
+        <item>CH#15</item>
+        <item>CH#16</item>
+    </string-array>
+    <string-array name="spinner_items5" >
+        <item>do nothing when released(CC)</item>
+        <item>000 when released(CC)</item>
+        <item>001 when released(CC)</item>
+        <item>002 when released(CC)</item>
+        <item>003 when released(CC)</item>
+        <item>004 when released(CC)</item>
+        <item>005 when released(CC)</item>
+        <item>006 when released(CC)</item>
+        <item>007 when released(CC)</item>
+        <item>008 when released(CC)</item>
+        <item>009 when released(CC)</item>
+        <item>010 when released(CC)</item>
+        <item>011 when released(CC)</item>
+        <item>012 when released(CC)</item>
+        <item>013 when released(CC)</item>
+        <item>014 when released(CC)</item>
+        <item>015 when released(CC)</item>
+        <item>016 when released(CC)</item>
+        <item>017 when released(CC)</item>
+        <item>018 when released(CC)</item>
+        <item>019 when released(CC)</item>
+        <item>020 when released(CC)</item>
+        <item>021 when released(CC)</item>
+        <item>022 when released(CC)</item>
+        <item>023 when released(CC)</item>
+        <item>024 when released(CC)</item>
+        <item>025 when released(CC)</item>
+        <item>026 when released(CC)</item>
+        <item>027 when released(CC)</item>
+        <item>028 when released(CC)</item>
+        <item>029 when released(CC)</item>
+        <item>030 when released(CC)</item>
+        <item>031 when released(CC)</item>
+        <item>032 when released(CC)</item>
+        <item>033 when released(CC)</item>
+        <item>034 when released(CC)</item>
+        <item>035 when released(CC)</item>
+        <item>036 when released(CC)</item>
+        <item>037 when released(CC)</item>
+        <item>038 when released(CC)</item>
+        <item>039 when released(CC)</item>
+        <item>040 when released(CC)</item>
+        <item>041 when released(CC)</item>
+        <item>042 when released(CC)</item>
+        <item>043 when released(CC)</item>
+        <item>044 when released(CC)</item>
+        <item>045 when released(CC)</item>
+        <item>046 when released(CC)</item>
+        <item>047 when released(CC)</item>
+        <item>048 when released(CC)</item>
+        <item>049 when released(CC)</item>
+        <item>050 when released(CC)</item>
+        <item>051 when released(CC)</item>
+        <item>052 when released(CC)</item>
+        <item>053 when released(CC)</item>
+        <item>054 when released(CC)</item>
+        <item>055 when released(CC)</item>
+        <item>056 when released(CC)</item>
+        <item>057 when released(CC)</item>
+        <item>058 when released(CC)</item>
+        <item>059 when released(CC)</item>
+        <item>060 when released(CC)</item>
+        <item>061 when released(CC)</item>
+        <item>062 when released(CC)</item>
+        <item>063 when released(CC)</item>
+        <item>064 when released(CC)</item>
+        <item>065 when released(CC)</item>
+        <item>066 when released(CC)</item>
+        <item>067 when released(CC)</item>
+        <item>068 when released(CC)</item>
+        <item>069 when released(CC)</item>
+        <item>070 when released(CC)</item>
+        <item>071 when released(CC)</item>
+        <item>072 when released(CC)</item>
+        <item>073 when released(CC)</item>
+        <item>074 when released(CC)</item>
+        <item>075 when released(CC)</item>
+        <item>076 when released(CC)</item>
+        <item>077 when released(CC)</item>
+        <item>078 when released(CC)</item>
+        <item>079 when released(CC)</item>
+        <item>080 when released(CC)</item>
+        <item>081 when released(CC)</item>
+        <item>082 when released(CC)</item>
+        <item>083 when released(CC)</item>
+        <item>084 when released(CC)</item>
+        <item>085 when released(CC)</item>
+        <item>086 when released(CC)</item>
+        <item>087 when released(CC)</item>
+        <item>088 when released(CC)</item>
+        <item>089 when released(CC)</item>
+        <item>090 when released(CC)</item>
+        <item>091 when released(CC)</item>
+        <item>092 when released(CC)</item>
+        <item>093 when released(CC)</item>
+        <item>094 when released(CC)</item>
+        <item>095 when released(CC)</item>
+        <item>096 when released(CC)</item>
+        <item>097 when released(CC)</item>
+        <item>098 when released(CC)</item>
+        <item>099 when released(CC)</item>
+        <item>100 when released(CC)</item>
+        <item>101 when released(CC)</item>
+        <item>102 when released(CC)</item>
+        <item>103 when released(CC)</item>
+        <item>104 when released(CC)</item>
+        <item>105 when released(CC)</item>
+        <item>106 when released(CC)</item>
+        <item>107 when released(CC)</item>
+        <item>108 when released(CC)</item>
+        <item>109 when released(CC)</item>
+        <item>110 when released(CC)</item>
+        <item>111 when released(CC)</item>
+        <item>112 when released(CC)</item>
+        <item>113 when released(CC)</item>
+        <item>114 when released(CC)</item>
+        <item>115 when released(CC)</item>
+        <item>116 when released(CC)</item>
+        <item>117 when released(CC)</item>
+        <item>118 when released(CC)</item>
+        <item>119 when released(CC)</item>
+        <item>120 when released(CC)</item>
+        <item>121 when released(CC)</item>
+        <item>122 when released(CC)</item>
+        <item>123 when released(CC)</item>
+        <item>124 when released(CC)</item>
+        <item>125 when released(CC)</item>
+        <item>126 when released(CC)</item>
+        <item>127 when released(CC)</item>
+    </string-array>
+    <string-array name="spinner_items7" >
+        <item>velocity 001(Note)</item>
+        <item>velocity 002(Note)</item>
+        <item>velocity 003(Note)</item>
+        <item>velocity 004(Note)</item>
+        <item>velocity 005(Note)</item>
+        <item>velocity 006(Note)</item>
+        <item>velocity 007(Note)</item>
+        <item>velocity 008(Note)</item>
+        <item>velocity 009(Note)</item>
+        <item>velocity 010(Note)</item>
+        <item>velocity 011(Note)</item>
+        <item>velocity 012(Note)</item>
+        <item>velocity 013(Note)</item>
+        <item>velocity 014(Note)</item>
+        <item>velocity 015(Note)</item>
+        <item>velocity 016(Note)</item>
+        <item>velocity 017(Note)</item>
+        <item>velocity 018(Note)</item>
+        <item>velocity 019(Note)</item>
+        <item>velocity 020(Note)</item>
+        <item>velocity 021(Note)</item>
+        <item>velocity 022(Note)</item>
+        <item>velocity 023(Note)</item>
+        <item>velocity 024(Note)</item>
+        <item>velocity 025(Note)</item>
+        <item>velocity 026(Note)</item>
+        <item>velocity 027(Note)</item>
+        <item>velocity 028(Note)</item>
+        <item>velocity 029(Note)</item>
+        <item>velocity 030(Note)</item>
+        <item>velocity 031(Note)</item>
+        <item>velocity 032(Note)</item>
+        <item>velocity 033(Note)</item>
+        <item>velocity 034(Note)</item>
+        <item>velocity 035(Note)</item>
+        <item>velocity 036(Note)</item>
+        <item>velocity 037(Note)</item>
+        <item>velocity 038(Note)</item>
+        <item>velocity 039(Note)</item>
+        <item>velocity 040(Note)</item>
+        <item>velocity 041(Note)</item>
+        <item>velocity 042(Note)</item>
+        <item>velocity 043(Note)</item>
+        <item>velocity 044(Note)</item>
+        <item>velocity 045(Note)</item>
+        <item>velocity 046(Note)</item>
+        <item>velocity 047(Note)</item>
+        <item>velocity 048(Note)</item>
+        <item>velocity 049(Note)</item>
+        <item>velocity 050(Note)</item>
+        <item>velocity 051(Note)</item>
+        <item>velocity 052(Note)</item>
+        <item>velocity 053(Note)</item>
+        <item>velocity 054(Note)</item>
+        <item>velocity 055(Note)</item>
+        <item>velocity 056(Note)</item>
+        <item>velocity 057(Note)</item>
+        <item>velocity 058(Note)</item>
+        <item>velocity 059(Note)</item>
+        <item>velocity 060(Note)</item>
+        <item>velocity 061(Note)</item>
+        <item>velocity 062(Note)</item>
+        <item>velocity 063(Note)</item>
+        <item>velocity 064(Note)</item>
+        <item>velocity 065(Note)</item>
+        <item>velocity 066(Note)</item>
+        <item>velocity 067(Note)</item>
+        <item>velocity 068(Note)</item>
+        <item>velocity 069(Note)</item>
+        <item>velocity 070(Note)</item>
+        <item>velocity 071(Note)</item>
+        <item>velocity 072(Note)</item>
+        <item>velocity 073(Note)</item>
+        <item>velocity 074(Note)</item>
+        <item>velocity 075(Note)</item>
+        <item>velocity 076(Note)</item>
+        <item>velocity 077(Note)</item>
+        <item>velocity 078(Note)</item>
+        <item>velocity 079(Note)</item>
+        <item>velocity 080(Note)</item>
+        <item>velocity 081(Note)</item>
+        <item>velocity 082(Note)</item>
+        <item>velocity 083(Note)</item>
+        <item>velocity 084(Note)</item>
+        <item>velocity 085(Note)</item>
+        <item>velocity 086(Note)</item>
+        <item>velocity 087(Note)</item>
+        <item>velocity 088(Note)</item>
+        <item>velocity 089(Note)</item>
+        <item>velocity 090(Note)</item>
+        <item>velocity 091(Note)</item>
+        <item>velocity 092(Note)</item>
+        <item>velocity 093(Note)</item>
+        <item>velocity 094(Note)</item>
+        <item>velocity 095(Note)</item>
+        <item>velocity 096(Note)</item>
+        <item>velocity 097(Note)</item>
+        <item>velocity 098(Note)</item>
+        <item>velocity 099(Note)</item>
+        <item>velocity 100(Note)</item>
+        <item>velocity 101(Note)</item>
+        <item>velocity 102(Note)</item>
+        <item>velocity 103(Note)</item>
+        <item>velocity 104(Note)</item>
+        <item>velocity 105(Note)</item>
+        <item>velocity 106(Note)</item>
+        <item>velocity 107(Note)</item>
+        <item>velocity 108(Note)</item>
+        <item>velocity 109(Note)</item>
+        <item>velocity 110(Note)</item>
+        <item>velocity 111(Note)</item>
+        <item>velocity 112(Note)</item>
+        <item>velocity 113(Note)</item>
+        <item>velocity 114(Note)</item>
+        <item>velocity 115(Note)</item>
+        <item>velocity 116(Note)</item>
+        <item>velocity 117(Note)</item>
+        <item>velocity 118(Note)</item>
+        <item>velocity 119(Note)</item>
+        <item>velocity 120(Note)</item>
+        <item>velocity 121(Note)</item>
+        <item>velocity 122(Note)</item>
+        <item>velocity 123(Note)</item>
+        <item>velocity 124(Note)</item>
+        <item>velocity 125(Note)</item>
+        <item>velocity 126(Note)</item>
+        <item>velocity 127(Note)</item>
+    </string-array>
+    <string-array name="spinner_items9" >
+        <item>key -12(Note)</item>
+        <item>key -11(Note)</item>
+        <item>key -10(Note)</item>
+        <item>key -09(Note)</item>
+        <item>key -08(Note)</item>
+        <item>key -07(Note)</item>
+        <item>key -06(Note)</item>
+        <item>key -05(Note)</item>
+        <item>key -04(Note)</item>
+        <item>key -03(Note)</item>
+        <item>key -02(Note)</item>
+        <item>key -01(Note)</item>
+        <item>key default(Note)</item>
+        <item>key +01(Note)</item>
+        <item>key +02(Note)</item>
+        <item>key +03(Note)</item>
+        <item>key +04(Note)</item>
+        <item>key +05(Note)</item>
+        <item>key +06(Note)</item>
+        <item>key +07(Note)</item>
+        <item>key +08(Note)</item>
+        <item>key +09(Note)</item>
+        <item>key +10(Note)</item>
+        <item>key +11(Note)</item>
+        <item>key +12(Note)</item>
+    </string-array>
+    <string-array name="spinner_items91" >
+        <item>--nothing--</item>
+        <item>CC#120 All Sound Off</item>
+        <item>CC#121 Reset All Controllers</item>
+        <item>CC#123 All Notes Off</item>
+    </string-array>
+</resources>
