@@ -5,14 +5,14 @@ plugins {
 
 android {
     namespace = "jp.iisun.midiaxes"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "jp.iisun.midiaxes"
         minSdk = 28
-        targetSdk = 35
-        versionCode = 10
-        versionName = "1.010"
+        targetSdk = 36
+        versionCode = 11
+        versionName = "1.011"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
