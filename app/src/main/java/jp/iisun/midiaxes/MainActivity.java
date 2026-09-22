@@ -1979,6 +1979,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     protected void connectToDevice() {
+        if (mMidiManager == null) {
+            return;
+        }
         // MIDI デバイスへの接続を確立するコードをここに記述
         // 接続が成功したら、midiDevice と midiInputPort を初期化する
         // トランスポートMIDIデバイスを取得し、最初のデバイスを開く
